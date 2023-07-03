@@ -1,0 +1,118 @@
+.hero {
+    margin-top: 70px;
+
+    .hero__inner {
+        h1 {
+            color: #fff;
+            font-size: 59px;
+            font-style: normal;
+            font-weight: 700;
+            text-transform: capitalize;
+            text-align: center;
+
+            span {
+                color: #FF9F1C;
+            }
+        }
+
+        a {
+            display: inline-block;
+            color: #fff;
+            padding: 15px 35px;
+            text-transform: capitalize;
+            font-size: 18px;
+            border: 1px solid #FF9F1C;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-decoration: none;
+            margin: 20px 445px;
+            border-radius: 30px;
+            background: #FF9F1C;
+        }
+
+        a:hover {
+            color: #fff;
+            transition: .3s;
+            background: transparent;
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .hero {
+        margin-top: 70px;
+    
+        .hero__inner {
+            h1 {
+                color: #fff;
+                font-size: 59px;
+                font-style: normal;
+                font-weight: 700;
+                text-transform: capitalize;
+                text-align: center;
+    
+                span {
+                    color: #FF9F1C;
+                }
+            }
+    
+            a {
+                display: inline-block;
+                color: #fff;
+                padding: 15px 35px;
+                text-transform: capitalize;
+                font-size: 18px;
+                border: 1px solid #FF9F1C;
+                font-weight: 600;
+                letter-spacing: 1px;
+                text-decoration: none;
+                margin: 20px 359px;
+                border-radius: 30px;
+                background: #FF9F1C;
+            }
+    
+            a:hover {
+                color: #fff;
+                transition: .3s;
+                background: transparent;
+            }
+        }
+    }    
+}
+
+@media (min-width: 429px) and (max-width: 768px) {
+    .hero {
+        margin-top: 70px;
+
+        .hero__inner {
+            h1 {
+                font-size: 40px;
+                font-weight: 600;
+            }
+
+            a {
+                margin: 20px 235px;
+            }
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .hero {
+        margin-top: 100px;
+
+        .hero__inner {
+            h1 {
+                font-size: 30px;
+                font-weight: 600;
+                width: 340px;
+            }
+    
+            a {
+                padding: 12px 28px;
+                font-weight: 600;
+                margin: 20px 75px;
+            }
+        }
+    }
+}

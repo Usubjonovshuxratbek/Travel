@@ -1,0 +1,52 @@
+.partners {
+    padding: 100px 0;
+
+    .partners__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .img-1 {
+            width: 135px;
+            height: 48px;
+            object-fit: cover;
+        }
+
+        .img-2 {
+            width: 135px;
+            height: 58px;
+            object-fit: cover;
+        }
+        
+        .img-3 {
+            width: 135px;
+            height: 65px;
+            object-fit: cover;
+        }
+
+        .img-4 {
+            width: 135px;
+            height: 79px;
+            object-fit: cover;
+        }
+
+        .img-5  {
+            width: 135px;
+            height: 77px;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .partners {
+        padding: 50px 0;
+    
+        .partners__inner {
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    }
+}

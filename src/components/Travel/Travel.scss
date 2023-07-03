@@ -1,0 +1,49 @@
+.travel {
+    background: #F9F9F9;
+
+    .travel__inner {
+        h1 {
+            font-size: 30px;
+            text-transform: capitalize;
+            font-weight: 700;
+            font-style: normal;
+            padding-top: 70px;
+        }
+        
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .travel {    
+        .travel__inner {
+            h1 {
+                font-size: 27px;
+            }
+            
+        }
+    }
+}
+
+@media (min-width: 429px) and (max-width: 768px) {
+    .travel {
+        .travel__inner {
+            h1 {
+                font-size: 25px;
+                font-weight: 600;
+                padding-top: 50px;
+            }
+        }
+    }
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .travel {
+        .travel__inner {
+            h1 {
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 50px;
+            }
+        }
+    }
+}
