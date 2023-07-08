@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.scss'
 import Logo from '../../assets/img/logo.jpg'
 import { Link } from 'react-router-dom'
 import Hero from '../Hero/Hero'
 
 function Header() {
-    let elInfo = document.querySelector('.info')
+    const [open, setOpen] = useState(false)
     const menuBtn = ()=> {
-        elInfo.classList.toggle('info-res')
+        setOpen(!open)
     }
 
     return (
@@ -19,7 +19,7 @@ function Header() {
                             <a href="/"><img src={Logo} alt="" /></a>
                             <button onClick={menuBtn} className='humburger-btn'><i className="bi bi-justify"></i></button>
                         </div>
-                        <div className="info">
+                        <div className={open == true? 'info-res': 'info'}>
                             <ul>
                                 <li>
                                     <Link to='/'>Bosh Sahifa</Link>

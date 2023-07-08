@@ -104,8 +104,8 @@
         h2 {
             font-size: 20px;
             font-weight: 600;
-            text-align: start;
-            margin: 0 120px;
+            width: 428px;
+            text-align: center;
         }
         
     
@@ -116,8 +116,9 @@
     
             .img {
                 img {
-                    width: 365px;
+                    width: 370px;
                     height: 256px;
+                    margin: 0 15px;
                 }
             }
     
@@ -129,7 +130,8 @@
                     font-size: 14px;
                     font-weight: 400;
                     color: #333333;
-                    width: 365px;
+                    width: 370px;
+                    margin: 0 15px;
                 }
             }
         }

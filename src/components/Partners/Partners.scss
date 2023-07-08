@@ -39,14 +39,27 @@
     }
 }
 
+@media (min-width: 429px) and (max-width: 768px) {
+    .partners {
+        padding: 10px 0;
+    
+        .partners__inner {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px 0;
+        }
+    }
+}
+
 @media (min-width: 0) and (max-width: 428px) {
     .partners {
         padding: 50px 0;
     
         .partners__inner {
-            justify-content: center;
+            display: flex;
             flex-direction: column;
-            flex-wrap: nowrap;
+            margin-left: -50%;
         }
     }
 }

@@ -1,5 +1,5 @@
 .hero {
-    margin-top: 70px;
+    margin-top: 140px;
 
     .hero__inner {
         h1 {
@@ -40,41 +40,17 @@
 
 @media (min-width:769px) and (max-width: 1024px) {
     .hero {
-        margin-top: 70px;
+        margin-top: 300px;
     
         .hero__inner {
             h1 {
-                color: #fff;
-                font-size: 59px;
-                font-style: normal;
-                font-weight: 700;
-                text-transform: capitalize;
-                text-align: center;
-    
-                span {
-                    color: #FF9F1C;
-                }
+                font-size: 60px;
+                width: 650px;
+                margin: 0 auto;
             }
     
             a {
-                display: inline-block;
-                color: #fff;
-                padding: 15px 35px;
-                text-transform: capitalize;
-                font-size: 18px;
-                border: 1px solid #FF9F1C;
-                font-weight: 600;
-                letter-spacing: 1px;
-                text-decoration: none;
-                margin: 20px 359px;
-                border-radius: 30px;
-                background: #FF9F1C;
-            }
-    
-            a:hover {
-                color: #fff;
-                transition: .3s;
-                background: transparent;
+                margin: 20px 34%;
             }
         }
     }    
@@ -82,16 +58,17 @@
 
 @media (min-width: 429px) and (max-width: 768px) {
     .hero {
-        margin-top: 70px;
+        margin-top: 100px;
 
         .hero__inner {
             h1 {
-                font-size: 40px;
-                font-weight: 600;
+                font-size: 60px;
+                font-weight: 500;
             }
 
             a {
-                margin: 20px 235px;
+                font-size: 25px;
+                margin: 20px 210px;
             }
         }
     }
@@ -105,13 +82,14 @@
             h1 {
                 font-size: 30px;
                 font-weight: 600;
-                width: 340px;
+                width: 380px;
+                text-align: center;
             }
     
             a {
                 padding: 12px 28px;
                 font-weight: 600;
-                margin: 20px 75px;
+                margin: 20px 90px;
             }
         }
     }
