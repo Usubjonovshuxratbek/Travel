@@ -7,13 +7,16 @@ import ImgFour from '../../assets/img/img-4.jpg'
 import ImgFive from '../../assets/img/img-5.jpg'
 import ImgSix from '../../assets/img/img-6.jpg'
 import { Link } from 'react-router-dom'
+import { Fade } from 'react-reveal';
 
 function Photos() {
   return (
     <section className='photo'>
       <div className="container">
         <div className="section-title">
-          <h2>Rasmlar</h2>
+          <Fade top>
+            <h2>Rasmlar</h2>
+          </Fade>
         </div>
         <div className="photo__inner">
           <Link to='/'><img src={ImgOne} alt="" /></Link>
